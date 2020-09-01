@@ -508,13 +508,62 @@ p {
 }
 
 
+/* Count
+======================== */
 
+.count {
+    margin-top: 85px;
+    width: 100%;
+    height: 590px;
 
+    background: linear-gradient(#3ea694, #194790);
+    position: relative;
+}
 
+.count__inner {
+    padding-top: 200px;
+}
 
+.count__title {
+    font-size: 100px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
 
+.count__subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
 
+.social {
+    
+    width: 100px;
+    margin: 0 auto;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.count__img {
+    position: absolute;
+    top: 30px;
+    right: -10px;
+}
+
+.social__item {
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.social__icon {
+    width: 25px;
+    height: 25px;
+    
+}
 
 
 
