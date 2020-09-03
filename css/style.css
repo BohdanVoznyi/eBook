@@ -518,10 +518,13 @@ p {
 
     background: linear-gradient(#3ea694, #194790);
     position: relative;
+
+    overflow: hidden;
 }
 
 .count__inner {
     padding-top: 200px;
+    
 }
 
 .count__title {
@@ -562,23 +565,69 @@ p {
 .social__icon {
     width: 25px;
     height: 25px;
-    
 }
 
 
+/* Section
+======================== */
+.section {
+    display: flex;
+    padding-top: 160px;
+    width: 1370px;
+    margin: 0 auto;
+}
 
+.section__review {
+    margin-top: 150px;
+    margin-left: 50px;
+    text-align: center;
+}
 
+.section__title {
+    margin-bottom: 30px;
 
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
 
+.section__text {
+    margin-bottom: 25px;
 
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e819e;
+    line-height: 1.4;
+}
 
+.section__author {
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
 
+.section__author span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
 
+.section__btn {
+    width: 280px;
+    height: 60px;
+    padding: 20px 90px;
 
+    border-radius: 50px;
+    border: none;
 
+    background: linear-gradient(100deg, #05be9e, #146fa7);
 
-
-
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
 
 
 
